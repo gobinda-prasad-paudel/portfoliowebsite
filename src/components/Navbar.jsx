@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import cv from "../docs/cv(resume).pdf";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,9 +10,9 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "Skills", href: "#skills" },
     { name: "Certificates", href: "#certificates" },
-    { name: "Projects", href: "/projects" },
     { name: "Contact", href: "#contact" },
   ];
+  const Navbar_link = [{ name: "Projects", href: "/projects" }];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,6 +38,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
+          <Link to={Navbar_link[0].href} className="nav-link">
+            {Navbar_link[0].name}
+          </Link>
         </ul>
 
         <button
@@ -60,6 +64,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
+          <Link to={Navbar_link[0].href} className="nav-link">
+            {Navbar_link[0].name}
+          </Link>
           <a className="btn-mobile-navigation" href={cv} download="CV.pdf">
             Download CV
           </a>

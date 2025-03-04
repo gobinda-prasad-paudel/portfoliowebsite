@@ -3,10 +3,10 @@ import React from "react";
 const Skills = () => {
   return (
     <>
-      <section class="second-sec" id="skills">
-        <div class="main">
+      <section className="second-sec" id="skills">
+        <div className="main">
           <h5>My Skills</h5>
-          <h1 class="main-h1">
+          <h1 className="main-h1">
             Why Hire Me For Next <span>Project?</span>
           </h1>
           <p>
@@ -17,9 +17,9 @@ const Skills = () => {
             out in the digital realm. Let's bring your vision to life together.
           </p>
         </div>
-        <div class="skills">
-          <div class="icon">
-            <i class="fa fa-laptop" aria-hidden="true"></i>
+        <div className="skills">
+          <div className="icon">
+            <i className="fa fa-laptop" aria-hidden="true"></i>
           </div>
           <h2>Responsive Designs</h2>
           <p>
@@ -28,9 +28,9 @@ const Skills = () => {
             dolorum?
           </p>
         </div>
-        <div class="skills">
-          <div class="icon">
-            <i class="fas fa-pencil-ruler"></i>
+        <div className="skills">
+          <div className="icon">
+            <i className="fas fa-pencil-ruler"></i>
           </div>
           <h2>Creative Designs</h2>
           <p>
@@ -39,9 +39,9 @@ const Skills = () => {
             dolorum?
           </p>
         </div>
-        <div class="skills">
-          <div class="icon">
-            <i class="fas fa-code"></i>
+        <div className="skills">
+          <div className="icon">
+            <i className="fas fa-code"></i>
           </div>
           <h2>Clean Code</h2>
           <p>
@@ -50,9 +50,9 @@ const Skills = () => {
             dolorum?
           </p>
         </div>
-        <div class="skills">
-          <div class="icon">
-            <i class="fa fa-bar-chart"></i>
+        <div className="skills">
+          <div className="icon">
+            <i className="fa fa-bar-chart"></i>
           </div>
           <h2>SEO-friendly Designs</h2>
           <p>

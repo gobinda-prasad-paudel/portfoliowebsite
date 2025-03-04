@@ -70,7 +70,7 @@ const Certificates = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
+        className="swiper"
       >
         {certificateImages.map((certificate, index) => (
           <SwiperSlide key={index} className="swiper-slide">

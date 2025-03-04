@@ -1,7 +1,12 @@
+import Timeline from "../components/Timeline";
 import React from "react";
 
 const Projects = () => {
-  return <div>This is projects page</div>;
+  return (
+    <>
+      <Timeline />
+    </>
+  );
 };
 
 export default Projects;

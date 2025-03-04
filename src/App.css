@@ -72,3 +72,135 @@ form textarea:focus {
 form button {
   width: 120px;
 }
+
+/* Timeline */
+
+.timeline-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #1a202c; */
+  color: white;
+  padding: 2.5rem;
+}
+
+.timeline-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.timeline-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 72rem;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background-color: var(--bg-hover-color);
+  transform: translateX(-50%);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.timeline-item-left {
+  justify-content: flex-start;
+}
+
+.timeline-item-right {
+  justify-content: flex-end;
+}
+
+.timeline-dot {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #3b82f6;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.timeline-card {
+  background-color: var(--secondary-bg-color);
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  max-width: 20rem;
+}
+
+.timeline-year {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-event-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-event-description {
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .timeline-container {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .timeline-title {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .timeline-line {
+    left: 1.5rem;
+    transform: none;
+  }
+
+  .timeline-item {
+    justify-content: flex-start !important;
+    margin-bottom: 1.5rem;
+  }
+
+  .timeline-dot {
+    left: 1.5rem;
+    transform: none;
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+
+  .timeline-card {
+    max-width: 100%;
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+
+  .timeline-year {
+    font-size: 1rem;
+  }
+
+  .timeline-event-title {
+    font-size: 0.9rem;
+  }
+
+  .timeline-event-description {
+    font-size: 0.75rem;
+  }
+}

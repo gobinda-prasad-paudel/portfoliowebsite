@@ -14,15 +14,15 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        index: "projects", // Default route
+        path: "projects",
         element: <Projects />,
       },
-    ],
-  },
 
-  {
-    path: "*", // ✅ Catch-all route for 404 pages
-    element: <Pagenotfound />,
+      {
+        path: "*", // ✅ Catch-all route for 404 pages
+        element: <Pagenotfound />,
+      },
+    ],
   },
 ]);
 
