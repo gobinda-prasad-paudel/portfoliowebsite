@@ -62,8 +62,22 @@ const Certificates = () => {
       </div>
 
       <Swiper
-        slidesPerView={1}
+        slidesPerView={2}
         spaceBetween={30}
+        breakpoints={{
+          "@0.00": {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          "@1.00": {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+        }}
         loop={true}
         pagination={{
           clickable: true,
