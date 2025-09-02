@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# Portfolio Website
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/d6674d87-c4c7-4c5d-893b-c51b183d7fee
+This is my personal portfolio website, designed to showcase my projects, skills, and professional experience. It features a modern, responsive design and interactive components for a smooth user experience.
 
-## How can I edit this code?
+**Live URL:** `https://gobindapoudel.com.np`   
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/d6674d87-c4c7-4c5d-893b-c51b183d7fee) and start prompting.
+* Clean and responsive UI with modern design
+* Interactive contact form with Google reCAPTCHA
+* Project showcase with live demos
+* Social media integration
+* SEO-friendly structure for better visibility
+* Built with modern web technologies
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **React** – Frontend library for building user interfaces
+* **TypeScript** – For type safety and maintainable code
+* **Vite** – Development and build tool
+* **Tailwind CSS** – Utility-first CSS framework for styling
+* **shadcn/ui** – Prebuilt React components for fast UI development
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## Getting Started
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Follow these steps to run the project locally:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+# 1. Clone the repository
+git clone https://github.com/yourusername/your-repo.git
 
-# Step 3: Install the necessary dependencies.
-npm i
+# 2. Navigate to the project directory
+cd your-repo
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The site will run locally at `http://localhost:5173` (default Vite port).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+You can deploy the project on any static hosting service, such as **Vercel, Netlify, or GitHub Pages**.
 
-## What technologies are used for this project?
+**Example using Vercel CLI:**
 
-This project is built with:
+```bash
+npm install -g vercel
+vercel
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/d6674d87-c4c7-4c5d-893b-c51b183d7fee) and click on Share -> Publish.
+If you want to contribute to this project:
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature`
+3. Make your changes and commit: `git commit -m "Add your message"`
+4. Push to your branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+* **Email:** [gobindapaudelofficial@gmail.com](mailto:gobindapaudelofficial@gmail.com)
+* **LinkedIn:** [Link](https://www.linkedin.com/in/gobinda-prasad-paudel-aa9485218/)
+* **GitHub:** [Link](https://github.com/gobinda-prasad-paudel)
+
+---
+
+This README is **SEO-friendly** because it includes:
+
+* Clear headings (`h1`, `h2`)
+* Keywords like “portfolio website,” “React,” “TypeScript,” “projects,” “deploy,” “contact”
+* Links to your live site and profiles
+* Technology stack mentions
+
+
