@@ -82,13 +82,6 @@ If you want to contribute to this project:
 * **LinkedIn:** [Link](https://www.linkedin.com/in/gobinda-prasad-paudel-aa9485218/)
 * **GitHub:** [Link](https://github.com/gobinda-prasad-paudel)
 
----
 
-This README is **SEO-friendly** because it includes:
-
-* Clear headings (`h1`, `h2`)
-* Keywords like “portfolio website,” “React,” “TypeScript,” “projects,” “deploy,” “contact”
-* Links to your live site and profiles
-* Technology stack mentions
 
 
