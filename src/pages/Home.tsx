@@ -60,10 +60,13 @@ const Home = () => {
                   </Button>
                 </Link>
 
-                <Button variant="outline" size="lg" className="glass hover:scale-105 transition-smooth">
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV
-                </Button>
+                <Link to={"/cv"}>
+
+                  <Button variant="outline" size="lg" className="glass hover:scale-105 transition-smooth">
+                    <Download className="mr-2 h-4 w-4" />
+                    Download CV
+                  </Button>
+                </Link>
               </motion.div>
 
               <motion.div
@@ -96,13 +99,13 @@ const Home = () => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
               whileHover={{ scale: 1.03 }}
-              className="flex justify-center md:justify-start"
+              className="flex justify-center md:justify-start items-"
             >
               <img
-                src="https://gobindapaudel.tech/images/photo1_cropped.jpg"
+                src="/photo2.jpg"
                 alt="Gobinda Paudel"
                 className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg 
-               rounded-2xl shadow-xl object-cover"
+               rounded-3xl shadow-xl object-cover"
               />
             </motion.div>
 
